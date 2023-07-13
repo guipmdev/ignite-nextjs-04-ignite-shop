@@ -1,6 +1,6 @@
-import { styled } from ".."
+import { styled } from '..'
 
-export const Container = styled("div", {
+export const Container = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
@@ -9,7 +9,7 @@ export const Container = styled("div", {
   minHeight: '100vh',
 })
 
-export const Header = styled("header", {
+export const Header = styled('header', {
   width: '100%',
   maxWidth: 1180,
 

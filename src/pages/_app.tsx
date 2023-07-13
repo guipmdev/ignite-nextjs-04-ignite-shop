@@ -6,7 +6,7 @@ import { globalStyles } from '../styles/global'
 
 import { Container, Header } from '../styles/pages/app'
 
-import logoImg from "../assets/logo.svg"
+import logoImg from '../assets/logo.svg'
 
 globalStyles()
 
