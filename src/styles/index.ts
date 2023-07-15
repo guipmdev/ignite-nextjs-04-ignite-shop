@@ -8,8 +8,8 @@ export const {
   keyframes,
   getCssText,
   theme,
-  createTheme
- } = createStitches({
+  createTheme,
+} = createStitches({
   theme: {
     colors: {
       white: '#fff',
@@ -27,6 +27,6 @@ export const {
       lg: '1.25rem',
       xl: '1.5rem',
       '2xl': '2rem',
-    }
-  }
+    },
+  },
 })

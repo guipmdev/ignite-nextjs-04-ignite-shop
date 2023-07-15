@@ -11,7 +11,6 @@ export const ProductContainer = styled('main', {
   margin: '0 auto',
 })
 
-
 export const ImageContainer = styled('div', {
   display: 'flex',
   alignItems: 'center',
@@ -37,7 +36,7 @@ export const ProductDetails = styled('div', {
   h1: {
     color: '$gray300',
     fontSize: '$2xl',
-  }, 
+  },
 
   span: {
     display: 'block',

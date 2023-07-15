@@ -30,30 +30,30 @@ export const Product = styled('div', {
   footer: {
     opacity: 0,
     overflow: 'hidden',
-    
+
     position: 'absolute',
     right: '0.25rem',
     bottom: '0.25rem',
     left: '0.25rem',
-    
+
     transform: 'translateY(110%)',
-    
+
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    
+
     backgroundColor: 'rgb(0 0 0 / 0.6)',
-    
+
     padding: '2rem',
     borderRadius: 6,
-    
+
     transition: 'all 0.2s ease-in-out',
 
     strong: {
       fontSize: '$lg',
       color: '$gray100',
     },
-    
+
     span: {
       color: '$green300',
       fontSize: '$xl',

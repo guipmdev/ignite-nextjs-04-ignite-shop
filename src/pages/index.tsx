@@ -1,15 +1,13 @@
-import { GetStaticProps } from 'next'
-
-import Stripe from 'stripe'
-import { stripe } from '../lib/stripe'
-
-import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
 
-import { HomeContainer, Product } from '../styles/pages/home'
-
-import Link from 'next/link'
+import { useKeenSlider } from 'keen-slider/react'
+import { GetStaticProps } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
+import Stripe from 'stripe'
+
+import { stripe } from '../lib/stripe'
+import { HomeContainer, Product } from '../styles/pages/home'
 
 interface HomeProps {
   products: {
@@ -32,7 +30,11 @@ export default function Home({ products }: HomeProps) {
     <HomeContainer ref={sliderRef} className="keen-slider">
       {products.map((product) => {
         return (
-          <Link href={`/product/${product.id}`} key={product.id} prefetch={false}>
+          <Link
+            href={`/product/${product.id}`}
+            key={product.id}
+            prefetch={false}
+          >
             <Product className="keen-slider__slide">
               <Image src={product.imageUrl} width={520} height={480} alt="" />
 
@@ -50,10 +52,9 @@ export default function Home({ products }: HomeProps) {
 
 export const getStaticProps: GetStaticProps = async () => {
   const response = await stripe.products.list({
-    expand: ['data.default_price']
+    expand: ['data.default_price'],
   })
 
-  
   const products = response.data.map((product) => {
     const price = product.default_price as Stripe.Price
 
