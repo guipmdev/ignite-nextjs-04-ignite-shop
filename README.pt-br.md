@@ -1,25 +1,25 @@
 <!-- ===== HEADER ===== -->
 <p align="right">
-  <img
-    src="https://img.shields.io/badge/lang-en-gray?style=flat-square&labelColor=202024"
-    alt="lang-en"
-  />
-  <a href="./README.pt-br.md" title="Ler o README em português brasileiro">
+  <a href="./README.md" title="Read the README in english">
     <img
-      src="https://img.shields.io/badge/lang-pt--br-green?style=flat-square&labelColor=202024"
-      alt="lang-pt-br"
+      src="https://img.shields.io/badge/lang-en-red?style=flat-square&labelColor=202024"
+      alt="lang-en"
     />
   </a>
+  <img
+    src="https://img.shields.io/badge/lang-pt--br-gray?style=flat-square&labelColor=202024"
+    alt="lang-pt-br"
+  />
 </p>
 
 <h1 align="center">
   <a
     href="https://guipmdev-ignite-shop.vercel.app/"
-    title="Go to the web application"
+    title="Acessar a aplicação web"
   >
     <img
       src="./src/assets/logo.svg"
-      alt="Ignite Shop logo"
+      alt="Logo do Ignite Shop"
       height="60px"
     />
   </a>
@@ -27,95 +27,95 @@
 
 <p align="center">
   <img
-    src="https://img.shields.io/github/languages/count/guipmdev/ignite-shop?color=%2304D361&labelColor=202024"
-    alt="Repository language count"
+    src="https://img.shields.io/github/languages/count/guipmdev/ignite-shop?color=%2304D361&labelColor=202024&label=linguagens"
+    alt="Contagem de linguagens do repositório"
   />
   <img
-    src="https://img.shields.io/github/repo-size/guipmdev/ignite-shop?labelColor=202024"
-    alt="Repository size"
+    src="https://img.shields.io/github/repo-size/guipmdev/ignite-shop?labelColor=202024&label=tamanho do repo"
+    alt="Tamanho do repositório"
   />
   <img
-    src="https://img.shields.io/github/commit-activity/m/guipmdev/ignite-shop?color=black&labelColor=202024"
-    alt="Commit activity"
+    src="https://img.shields.io/github/commit-activity/m/guipmdev/ignite-shop?color=black&labelColor=202024&label=atividade de commits"
+    alt="Atividade de commits"
   />
   <a
     href="https://github.com/guipmdev/ignite-shop/commits/main"
-    title="View repository commits"
+    title="Visualizar commits do repositório"
   >
     <img
-      src="https://img.shields.io/github/last-commit/guipmdev/ignite-shop?labelColor=202024"
-      alt="Last commit"
+      src="https://img.shields.io/github/last-commit/guipmdev/ignite-shop?labelColor=202024&label=último commit"
+      alt="Último commit"
     />
   </a>
-  <a href="./LICENSE" title="View project license">
+  <a href="./LICENSE" title="Visualizar licença do projeto">
     <img
-      src="https://img.shields.io/badge/license-MIT-brightgreen?labelColor=202024"
-      alt="Project license"
+      src="https://img.shields.io/badge/license-MIT-brightgreen?labelColor=202024&label=licen%C3%A7a"
+      alt="Licença do projeto"
     />
   </a>
-  <a href="https://www.rocketseat.com.br/" title="Go to the Rocketseat website">
+  <a href="https://www.rocketseat.com.br/" title="Acessar o site da Rocketseat">
     <img
-      src="https://img.shields.io/badge/Layout_by-Rocketseat-8257e5?labelColor=202024"
-      alt="Layout designer"
+      src="https://img.shields.io/badge/Layout_por-Rocketseat-8257e5?labelColor=202024"
+      alt="Designer do layout"
     />
   </a>
 </p>
 
-![Screenshot of the application initial page](./src/assets/images/cover.webp)
+![Captura de tela da página inicial da aplicação](./src/assets/images/cover.webp)
 
 <p align="center">
   <a href="https://guipmdev-ignite-shop.vercel.app/"
-    >Go to the web application ↗</a
+    >Acessar a aplicação web ↗</a
   >
 </p>
 
 <details>
   <summary>
-    <h2>📒 Table of Contents</h2>
+    <h2>📒 Índice</h2>
   </summary>
 
-- [📍 Overview](#-overview)
-- [✨ Features](#-features)
+- [📍 Visão geral](#-visão-geral)
+- [✨ Funcionalidades](#-funcionalidades)
 - [🤖 Demo](#-demo)
 - [🎨 Layout](#-layout)
-- [🛠 Technologies](#-technologies)
+- [🛠 Tecnologias](#-tecnologias)
   - [Website](#website)
-  - [Utils](#utils)
-- [🚀 Getting Started](#-getting-started)
-  - [✔️ Prerequisites](#️-prerequisites)
-  - [📦 Installation](#-installation)
-  - [⚙️ Usage](#️-usage)
-- [📄 License](#-license)
-- [👏 Acknowledgments](#-acknowledgments)
+  - [Úteis](#úteis)
+- [🚀 Primeiros passos](#-primeiros-passos)
+  - [✔️ Pré-requisitos](#️-pré-requisitos)
+  - [📦 Instalação](#-instalação)
+  - [⚙️ Utilização](#️-utilização)
+- [📄 Licença](#-licença)
+- [👏 Reconhecimentos](#-reconhecimentos)
 </details>
 
 <!-- ===== PROJECT INFOS ===== -->
 
-## 📍 Overview
+## 📍 Visão geral
 
-This project is a web application developed in _React_ and _TypeScript_ that serves as ...
+Esse projeto é uma aplicação web desenvolvida em _React_ e _TypeScript_ servindo como ...
 
-The application offers features such as ...
+A aplicação oferece recursos como ...
 
-## ✨ Features
+## ✨ Funcionalidades
 
 ## 🤖 Demo
 
 ## 🎨 Layout
 
-The layout of the application was designed by **Rocketseat** and is available on [Figma](https://www.figma.com/file/pipYkHza8fTHXsG1wjYsTZ/Ignite-Shop-%E2%80%A2-Projeto-React).
+O layout da aplicação foi projetado pela **Rocketseat** e está disponível no [Figma](https://www.figma.com/file/pipYkHza8fTHXsG1wjYsTZ/Ignite-Shop-%E2%80%A2-Projeto-React).
 
 <p align="center">
   <img
     src="./src/assets/images/layout-cover.webp"
-    alt="Web application layout image cover"
+    alt="Imagem de capa do layout da aplicação web"
     width="50%"
   />
 </p>
 
-## 🛠 Technologies
+## 🛠 Tecnologias
 
-The following tools were used to build the project:
+As seguintes ferramentas foram usadas para desenvolver esse projeto:
 
 ### Website
 
@@ -176,9 +176,9 @@ The following tools were used to build the project:
   </a>
 </p>
 
-_\* See the [<kbd>package.json</kbd>](./package.json) file_
+_\* Confira o arquivo [<kbd>package.json</kbd>](./package.json)_
 
-### Utils
+### Úteis
 
 <p>
   <a href="https://git-scm.com/">
@@ -213,66 +213,65 @@ _\* See the [<kbd>package.json</kbd>](./package.json) file_
   </a>
 </p>
 
-## 🚀 Getting Started
+## 🚀 Primeiros passos
 
-### ✔️ Prerequisites
+### ✔️ Pré-requisitos
 
-Before you begin, ensure that you have the following tools installed on your machine: [Git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en/download). It's also good to have an editor to work with the code, such as [VSCode](https://code.visualstudio.com/Download).
+Antes de você começar, certifique-se que você tem as seguintes ferramentas instaladas na sua máquina: [Git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en/download). Também é bom ter um editor para trabalhar com o código, como o [VSCode](https://code.visualstudio.com/Download).
 
-### 📦 Installation
+### 📦 Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
 
 ```sh
 git clone https://github.com/guipmdev/ignite-shop/
 ```
 
-2. Change to the project directory:
+2. Mude para o diretório do projeto:
 
 ```sh
 cd ignite-shop
 ```
 
-3. Install the dependencies:
+3. Instale as dependências:
 
 ```sh
 npm install
 ```
 
-### ⚙️ Usage
+### ⚙️ Utilização
 
-1. Start the web application:
+1. inicie a aplicação web:
 
 ```sh
 npm run dev
 ```
 
-2. Access https://localhost:5173/ to view the application
+2. Acesse https://localhost:5173/ para visualizar a aplicação
 
-## 📄 License
+## 📄 Licença
 
-This project is licensed under the terms of the `MIT` license. See the
-[LICENSE](./LICENSE) file for additional info.
+Este projeto está licenciado de acordo com os termos da licença `MIT`. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
 
-## 👏 Acknowledgments
+## 👏 Reconhecimentos
 
-> - Many thanks to [Rocketseat](https://www.rocketseat.com.br/) for the layout and tips when putting this project together
+> - Muito obrigado à [Rocketseat](https://www.rocketseat.com.br/) pelo layout e pelas dicas de como montar este projeto
 
 <!-- ===== FOOTER ===== -->
 
 ---
 
 <p align="center">
-  Made with 💙 by
+  Feito com 💙 por
   <a href="https://www.guipm.dev/"> @guipm.dev </a>
-  - Feel free to
-  <a href="mailto:guipm.dev@gmail.com">contact me</a>!
+  - Fique à vontade para
+  <a href="mailto:guipm.dev@gmail.com">entrar em contato comigo</a>!
 </p>
 
 <br />
 
 <p align="center">
   <a href="#top">
-    <b>↑&nbsp;&nbsp; Return to the top &nbsp;&nbsp;↑</b>
+    <b>↑&nbsp;&nbsp; Voltar ao topo &nbsp;&nbsp;↑</b>
   </a>
 </p>
