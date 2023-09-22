@@ -93,11 +93,19 @@
 
 ## 📍 Visão geral
 
-Esse projeto é uma aplicação web desenvolvida em _React_ e _TypeScript_ servindo como ...
+Este projeto é uma aplicação web desenvolvida em _Next.js_ e _TypeScript_ de uma loja on-line fictícia que exibe os produtos na página inicial em um carrossel, possibilitando aos usuários visualizarem os detalhes clicando neles e fazer a compra por meio da plataforma de pagamento Stripe. Ela também tem uma página de sucesso que exibe os detalhes do que foi comprado.
 
-A aplicação oferece recursos como ...
+O objetivo do Ignite Shop é proporcionar uma experiência de compra amigável e visualmente atraente, integrando-se a um processador de pagamento popular para simplificar o processo de compra para os clientes.
 
 ## ✨ Funcionalidades
+
+👕 **Veja todas as peças de roupa** disponíveis de forma fácil
+
+👀 **Veja mais detalhes** clicando no produto desejado
+
+💳 **Escolha** o que desejar e **finalize o pagamento** pela Stripe (_only symbolic_)
+
+🚚 Aguardar a compra chegar
 
 ## 🤖 Demo
 
