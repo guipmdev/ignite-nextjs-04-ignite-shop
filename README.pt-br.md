@@ -103,7 +103,7 @@ O objetivo do Ignite Shop é proporcionar uma experiência de compra amigável e
 
 👀 **Veja mais detalhes** clicando no produto desejado
 
-💳 **Escolha** o que desejar e **finalize o pagamento** pela Stripe (_only symbolic_)
+💳 **Escolha** o que desejar e **finalize o pagamento** pela Stripe (_apenas simbólico_)
 
 🚚 Aguardar a compra chegar
 
