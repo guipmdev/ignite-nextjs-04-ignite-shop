@@ -251,23 +251,25 @@ npm install
 
 ### ⚙️ Utilização
 
-1. Acesse a sua conta da [Stripe](https://stripe.com/) e obtenha as suas [_API keys_](https://dashboard.stripe.com/test/apikeys)
+1. Acesse/crie a sua conta na [Stripe](https://stripe.com/)
 
-   - Confira a [documentação do Stripe](https://stripe.com/docs/keys) se for preciso
+   - Crie uma loja, produtos e faça toda a configuração necessária
 
-2. Renomeie o arquivo `.env.local.example` para `.env` e insira as informações necessárias:
+2. Obtenha as suas [_API keys_](https://dashboard.stripe.com/test/apikeys)
+
+3. Renomeie o arquivo `.env.local.example` para `.env` e insira as informações necessárias:
 
 ```sh
 mv .env.local.example .env
 ```
 
-3. Inicie a aplicação web:
+4. Inicie a aplicação web:
 
 ```sh
 npm run dev
 ```
 
-4. Acesse http://localhost:3000/ para visualizar a aplicação
+5. Acesse http://localhost:3000/ para visualizar a aplicação
 
 ## 📄 Licença
 
