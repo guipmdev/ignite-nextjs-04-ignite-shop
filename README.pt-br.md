@@ -109,6 +109,8 @@ O objetivo do Ignite Shop é proporcionar uma experiência de compra amigável e
 
 ## 🤖 Demo
 
+https://github.com/guipmdev/ignite-shop/assets/136738335/137cef05-bfb4-460a-8c4e-ad68f410af36
+
 ## 🎨 Layout
 
 O layout da aplicação foi projetado pela **Rocketseat** e está disponível no [Figma](https://www.figma.com/file/pipYkHza8fTHXsG1wjYsTZ/Ignite-Shop-%E2%80%A2-Projeto-React).
