@@ -241,13 +241,23 @@ npm install
 
 ### ⚙️ Usage
 
-1. Start the web application:
+1. Log in to your [Stripe](https://stripe.com/) account and get your [_API keys_](https://dashboard.stripe.com/test/apikeys)
+
+   - Check the [Stripe documentation](https://stripe.com/docs/keys) if you need to
+
+2. Rename the file `.env.local.example` to `.env` and insert the necessary information:
+
+```sh
+mv .env.local.example .env
+```
+
+3. Start the web application:
 
 ```sh
 npm run dev
 ```
 
-2. Access https://localhost:5173/ to view the application
+2. Access http://localhost:3000/ to view the application
 
 ## 📄 License
 
