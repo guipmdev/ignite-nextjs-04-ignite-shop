@@ -257,10 +257,10 @@ npm install
 
 2. Get your [_API keys_](https://dashboard.stripe.com/test/apikeys)
 
-3. Rename the file `.env.local.example` to `.env` and insert the necessary information:
+3. Rename the file `.env.local.example` to `.env.local` and insert the necessary information:
 
 ```sh
-mv .env.local.example .env
+mv .env.local.example .env.local
 ```
 
 4. Start the web application:
